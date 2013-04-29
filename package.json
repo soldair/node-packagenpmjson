@@ -1,0 +1,30 @@
+{
+  "name": "packagenpmjson",
+  "version": "0.0.0",
+  "description": "this creates a npm compatable json document. you can use it as a component for private npm registries that doont use couch.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/soldair/node-packagenpmjson.git"
+  },
+  "keywords": [
+    "npm",
+    "json",
+    "publish",
+    "private"
+  ],
+  "author": "Ryan Day",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "tape": "~0.3.3"
+  },
+  "dependencies": {
+    "packagegitconfig": "0.0.0",
+    "shafile": "0.0.0",
+    "packagereadme": "0.0.0"
+  }
+}
